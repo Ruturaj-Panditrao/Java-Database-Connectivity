@@ -16,8 +16,8 @@ class JDBC_Connect{
             e.printStackTrace();
         }
         String url = "jdbc:mysql://localhost:3306/practice1";
-        user = "root";
-        password = "rutu@0702";
+        user = "";
+        password = "";
         query = "";
         try {
             conn = DriverManager.getConnection(url, user, password);
